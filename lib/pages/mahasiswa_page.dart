@@ -16,7 +16,7 @@ class _MahasiswaPageState extends State<MahasiswaPage> {
   List mahasiswa = [];
 
   final String apiUrl =
-      "https://script.google.com/macros/s/AKfycbwd5w4w8CUIh16jC0vn80dxpGUujqrOicaiy_CRWGwVPgoyUTzAWMOR_v-isF21RfzS/exec";
+      "https://script.google.com/macros/s/AKfycbzk4sGHSH7PH9j8hOVrP0vk-oGVst7V_OJhfi4ERH_eIQ0CAA59plV_HfukvfKrogfXEg/exec";
 
   @override
   void initState() {
