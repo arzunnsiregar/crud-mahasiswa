@@ -15,7 +15,7 @@ class _LoginPageState extends State<LoginPage> {
   bool isHidePassword = true;
 
   void login() {
-    if (userController.text == "ica" && passController.text == "1414") {
+    if (userController.text == "ica" && passController.text == "") {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (_) => const HomePage()),
@@ -34,8 +34,8 @@ class _LoginPageState extends State<LoginPage> {
         decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [
-              Color.fromARGB(255, 54, 77, 210),
-              Color.fromARGB(255, 76, 29, 185),
+              Color.fromARGB(255, 127, 73, 189),
+              Color.fromARGB(255, 162, 135, 167),
             ],
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
@@ -57,11 +57,11 @@ class _LoginPageState extends State<LoginPage> {
                     children: [
                       const CircleAvatar(
                         radius: 50,
-                        backgroundColor: Color.fromARGB(255, 38, 96, 190),
+                        backgroundColor: Color.fromARGB(255, 196, 96, 125),
                         child: Icon(
                           Icons.school,
                           size: 60,
-                          color: Color.fromARGB(255, 157, 149, 143),
+                          color: Color.fromARGB(255, 161, 123, 92),
                         ),
                       ),
                       const SizedBox(height: 20),
